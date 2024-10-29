@@ -1,0 +1,13 @@
+I1019 19:21:04.672941   20160 load.go:37] Reloading schema and connectors...
+I1019 19:21:04.685124   20160 control.go:45] [engine.Service /emulator/MVVMandretrofit 1032] UpdateSchema(): done sources: schema\schema.gql [1384B] 
+I1019 19:21:04.693688   20160 control.go:73] [engine.Service /emulator/MVVMandretrofit 1032] UpdateConnector(default): done sources: connector\mutations.gql [1163B] connector\queries.gql [1855B] 
+I1019 19:21:04.721707   20160 codegen.go:82] [connector "default" kotlinSdk] Generating sources into "C:\\Users\\Naman Jain\\AndroidStudioProjects\\MVVMandretrofit\\app\\src\\main\\java\\connectors\\default"
+I1019 19:21:04.724707   20160 collector.go:107] schema extensions wrote into "C:\\Users\\Naman Jain\\dataconnect\\.dataconnect\\schema"
+Generated sources: prelude.gql [59310B] 
+I1019 19:21:04.731727   20160 collector.go:107] connector "default" kotlinSdk wrote into "C:\\Users\\Naman Jain\\AndroidStudioProjects\\MVVMandretrofit\\app\\src\\main\\java\\connectors\\default"
+Generated sources: DefaultConnector.kt [2663B] DefaultConnectorKeys.kt [1177B] DefaultConnectorEnums.kt [790B] 
+I1019 19:21:04.732727   20160 load.go:96] Finished reloading
+I1019 19:21:04.739737   20160 dev.go:95] Listening on address (HTTP + gRPC): 127.0.0.1:9399
+I1019 19:21:04.739737   20160 dev.go:95] Listening on address (HTTP + gRPC): [::1]:9399
+I1019 19:21:06.103596   20160 control.go:45] [engine.Service /emulator/MVVMandretrofit 71e3] UpdateSchema(): done sources: schema\schema.gql [1384B] 
+I1019 19:21:06.103945   20160 control.go:73] [engine.Service /emulator/MVVMandretrofit 71e3] UpdateConnector(default): done sources: connector\mutations.gql [1163B] connector\queries.gql [1855B] 
